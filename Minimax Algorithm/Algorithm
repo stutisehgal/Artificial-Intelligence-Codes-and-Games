@@ -1,0 +1,7 @@
+# ALGORITHM:
+
+o There are two players one is called Maximizer and other is called Minimizer. Maximizer will try to get the Maximum possible score, and Minimizer will try to get the minimum possible score.
+o In the first step, the algorithm generates the entire game-tree and apply the utility function to get the utility values for the terminal states.
+o Now, first we find the utilities value for the Maximizer, its initial value is -∞, so we will compare each value in terminal state with initial value of Maximizer and determines the higher nodes values. It will find the maximum among the all.
+o In the next step, it's a turn for minimizer, so it will compare all nodes value with +∞, and will find the 3rd layer node values.
+o Now it's a turn for Maximizer, and it will again choose the maximum of all nodes value and find the maximum value for the root node. In my game tree, there are only 4 layers, hence we reach immediately to the root node, but in real games, there will be more than 4 layers.
