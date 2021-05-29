@@ -1,0 +1,9 @@
+# Algorithm:
+
+1. Initialise the substitution set to be empty.
+2. Recursively unify expressions.
+2a. Identical items match.
+2b. If one item is a variable and the other item is a term not containing the variable, then:
+i) Substitute t/v in the existing substitution.
+ii) Add t/v to the substitution set.
+iii) If both items are functions, then the function names must be identical and all arguments must unify.
