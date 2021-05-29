@@ -1,0 +1,7 @@
+# ALGORITHM:
+
+o Step 1: SET STATUS = 1 (ready state) for each node in G
+o Step 2: Push the starting node on the stack and set its Status as waiting state
+o Step 3: Repeat Steps 4 and 5 until stack is empty
+o Step 4: Pop the top node N. Process it and set its Status as processed state
+o Step 5: Push on the stack all the neighbours of N that are in the ready state (whose status is ready and set it as waiting state)
