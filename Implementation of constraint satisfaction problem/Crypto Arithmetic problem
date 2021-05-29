@@ -1,0 +1,9 @@
+# Algorithm:
+
+● First, create a list of all the characters that need assigning to pass to solve.
+● If all characters are assigned, return true if the puzzle is solved, false otherwise.
+● Otherwise, consider the first unassigned character for (every possible choice among the digits
+not in use) make that choice and then if recursion successful, return true
+● If not successful, unmake assignment and try another digit wise try to assign the rest of the
+characters.
+● If all digits have been tried and nothing worked, return false.
