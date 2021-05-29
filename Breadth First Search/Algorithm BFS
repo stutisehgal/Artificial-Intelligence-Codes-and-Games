@@ -1,0 +1,8 @@
+# ALGORITHM:
+
+1. We have to take input of a tree, as a matrix.
+2. We have to visit each node. Now we have to so like layer wise, starting at the root node
+followed by all child nodes.
+3. Once all child nodes of the root node are visited, we further have to go to the child node of
+child nodes and so on.
+4. For every node visited, add it to a list in state space.
