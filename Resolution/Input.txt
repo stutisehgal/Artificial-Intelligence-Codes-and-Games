@@ -1,0 +1,7 @@
+1
+Enjoy(x)
+5
+Rain(x)
+Sunny(x)
+Wet(x) & Warm(x) => Enjoy(x)
+Rain(x) => Wet(x)
